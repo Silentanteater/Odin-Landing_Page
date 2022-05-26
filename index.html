@@ -8,7 +8,7 @@
     <title>Modal</title>
   </head>
   <body>
-     <nav>
+   <nav>
      <div class="navbar">
        <div class="header-logo">
          Header Logo
@@ -24,14 +24,14 @@
    </nav>
    <article>
      <div class="content">
-       <div>
-         <h1 class="title">
+       <div class="text">
+         <div class="title">
            This website is awesome
-         </h1>
-         <p>
+         </div>
+         <div class="subtext">
            This webside has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
-         </p>
-         <button class="signup">
+         </div>
+         <button class="signup-button-article">
            Sign up
          </button>
        </div>
@@ -42,40 +42,47 @@
    </article>
    <div class="random">
      <div class="title">
-       Some random information
+       Some random information.
      </div>
-     <div class="random-item">
-       <div class="illustration">
+     <div class="items">
+       <div class="item one">
+         <div class="illustration">
+         </div>
+         <div class="subtext">
+           This is some subtexts under an illustration or image
+         </div>
        </div>
-       <div class="subtext">
-         This is some subtexts under an illustration or image
+       <div class="item two">
+         <div class="illustration">
+         </div>
+         <div class="subtext">
+           This is some subtexts under an illustration or image
+         </div>
        </div>
-     </div>
-     <div class="random-item">
-       <div class="illustration">
+       <div class="item three">
+         <div class="illustration">
+         </div>
+         <div class="subtext">
+           This is some subtexts under an illustration or image
+         </div>
        </div>
-       <div class="subtext">
-         This is some subtexts under an illustration or image
-       </div>
-     </div>
-     <div class="random-item">
-       <div class="illustration">
-       </div>
-       <div class="subtext">
-         This is some subtexts under an illustration or image
-       </div>
-     </div>
-     <div class="random-item">
-       <div class="illustration">
-       </div>
-       <div class="subtext">
-         This is some subtexts under an illustration or image
+       <div class="item four">
+         <div class="illustration">
+         </div>
+         <div class="subtext">
+           This is some subtexts under an illustration or image
+         </div>
        </div>
      </div>
    </div>
    <div class="quote">
-     This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it Who knows? All I know is that it looks nice.
-     -Thor, God of Thunder
+     <figure>
+       <blockquote>
+
+         This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it Who knows? All I know is that it looks nice.
+       </blockquote>
+       <figcaption> -Thor, God of Thunder</figcaption>
+     </figure>
    </div>
    <div class="action">
      <div class="words">
@@ -86,9 +93,12 @@
          Sign up for our product by clicking that button over there!
        </div>
      </div>
-     <div class="signup-button-action">
-       Sign up
+     <div class="button-container">
+
+       <button type="button" class="signup-button-action">
+         Sign up
+       </button>
      </div>
    </div>
-  </body>
+ </body>
 </html>
