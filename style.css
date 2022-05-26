@@ -1,8 +1,8 @@
-.navbar{background:#1f2937; color:white; display:flex; justify-content:space-between; padding-left:10vw;padding-right:10vw; align-items:center}
+.navbar{background:#1f2937; color:white; display:flex; justify-content:space-between; padding-left:10vw;padding-right:10vw; align-items:center; }
 .header-links ul{display:flex; list-style-type:none; justify-content:space-between; gap:10px}
 .header-links li{color:#e5e7eb; font-size:18px}
 .header-logo {color:#f9faf8; font-size:24px; font-weight:bold}
-.content{background:#1f2937; display:flex; padding-left:10vw;padding-right:10vw; gap:20px}
+.content{background:#1f2937; display:flex; padding-left:10vw;padding-right:10vw;padding-bottom:5%; padding-top:5%; gap:20px}
 .text .title{color:#f9faf8; font-size:48px;font-weight:600 }
 .content > div {width:50%}
 .image_placeholder{display:flex; align-items:center; justify-content:center; background:lightgray}
